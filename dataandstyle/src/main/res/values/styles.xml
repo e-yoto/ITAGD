@@ -1,0 +1,47 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#e64a19</item>
+        <item name="colorPrimaryDark">#C74016</item>
+        <item name="colorAccent">#54e5a1</item>
+        <item name="colorText">#1F1F1F</item>
+        <item name="colorBackground">#FFFFFF</item>
+        <item name="colorItem">#EEEEEE</item>
+        <item name="colorButton">#EEEEEE</item>
+        <item name="android:windowAnimationStyle">@style/ThemeTransition</item>
+    </style>
+
+    <style name="CustomDialog" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="colorControlNormal">#e64a19</item>
+        <item name="colorControlActivated">#e64a19</item>
+    </style>
+
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#2C2C2C</item>
+        <item name="colorPrimaryDark">#222222</item>
+        <item name="colorAccent">#e64a19</item>
+        <item name="colorText">#FFFFFF</item>
+        <item name="colorBackground">#000000</item>
+        <item name="colorItem">#2C2C2C</item>
+        <item name="colorButton">#e64a19</item>
+        <item name="android:windowAnimationStyle">@style/ThemeTransition</item>
+        <item name="alertDialogTheme">@style/DarkAlertDialog</item>
+    </style>
+
+    <style name="ThemeTransition">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="DarkAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">#2C2C2C</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColor">#e64a19</item>
+    </style>
+
+    <style name="CustomMenu">
+        <item name="android:itemBackground">#2C2C2C</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+</resources>

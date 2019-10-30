@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activities.AddActivityFragment">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="?attr/colorBackground">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="15dp"
+            android:gravity="center"
+            android:text="Activity Information"
+            android:textColor="#e64a19"
+            android:textSize="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginBottom="5dp"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:background="?attr/colorItem">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/activity"
+                android:textColor="?attr/colorText"
+                android:textSize="23dp" />
+
+            <EditText
+                android:id="@+id/edt_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e64a19"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginBottom="5dp"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:background="?attr/colorItem">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/time"
+                android:textColor="?attr/colorText"
+                android:textSize="23dp" />
+
+            <TextView
+                android:id="@+id/edt_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/choose_time_tv"
+                android:textColor="#e64a19"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginBottom="5dp"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:background="?attr/colorItem">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="@string/weather"
+                android:textColor="?attr/colorText"
+                android:textSize="23dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <CheckBox
+                    android:id="@+id/check_snow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="@string/snow"
+                    android:textColor="?attr/colorText"
+                    android:textSize="20dp"
+                    />
+
+                <CheckBox
+                    android:id="@+id/check_drizzle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="@string/drizzle"
+                    android:textColor="?attr/colorText"
+                    android:textSize="20dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <CheckBox
+                    android:id="@+id/check_thunderstorm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="@string/thunderstorm"
+                    android:textColor="?attr/colorText"
+                    android:textSize="20dp"
+                    />
+
+                <CheckBox
+                    android:id="@+id/check_clouds"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="@string/clouds"
+                    android:textColor="?attr/colorText"
+                    android:textSize="20dp"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <CheckBox
+                    android:id="@+id/check_clear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_gravity="center"
+                    android:text="@string/clear"
+                    android:textColor="?attr/colorText"
+                    android:textSize="20dp"
+                    />
+
+                <CheckBox
+                    android:id="@+id/check_rain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="@string/rain"
+                    android:textColor="?attr/colorText"
+                    android:textSize="20dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:id="@+id/btn_add_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"
+                android:text="@string/btnSave"
+                android:padding="5dp"
+                android:background="?attr/colorButton"
+                android:textColor="?attr/colorText"
+                />
+
+            <Button
+                android:id="@+id/btn_cancel_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"
+                android:text="@string/btnCancel"
+                android:padding="5dp"
+                android:background="?attr/colorButton"
+                android:textColor="?attr/colorText"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

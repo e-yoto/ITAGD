@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_sunrise_card" translatable="false">Lever du Soleil</string>
+    <string name="tv_sunset_card">Coucher du Soleil</string>
+    <string name="about" translatable="false">Is Today is Good Day To? (ITAGD en abrégé) est une application qui prend des données sur la météo courante et vous indique, si c\'est un bon moment d\'effectuer certaines activités que vous entrez vous-même.</string>
+    <string name="btnAdd">Créer une activité</string>
+    <string name="last_updated">Mis à Jour: </string>
+    <string name="snow">Neige</string>
+    <string name="thunderstorm">Orage</string>
+    <string name="clear">Clair</string>
+    <string name="rain">Pluie</string>
+    <string name="clouds">Nuages</string>
+    <string name="btn_what_to_do">Que devrais-je faire?</string>
+    <string name="list">Liste</string>
+    <string name="grid">Grille</string>
+    <string name="option_about">À Propos</string>
+    <string name="drizzle">Bruine</string>
+    <string name="btnSave">Sauvegarder</string>
+    <string name="btnCancel">Annuler</string>
+    <string name="choose_time_tv">Cliquer pour choisir le temps</string>
+    <string name="time">Temps</string>
+    <string name="activity">Activité</string>
+    <string name="weather">Météo</string>
+    <string name="delete_activity">Supprimer une activité</string>
+    <string name="delete_message">Souhaitez-vous supprimer définitivement cette activité?</string>
+    <string name="activity_deleted">Activité Supprimé!</string>
+    <string name="undo">Annuler</string>
+    <string name="open_weathernetwork">Ouvrir MétéoMédia</string>
+    <string name="about_weather">À propos de la météo</string>
+    <string name="archive">Archiver</string>
+    <string name="snackbar_activity_restored">Activité restauré. Appuyer OK pour retourner.</string>
+
+
+</resources>

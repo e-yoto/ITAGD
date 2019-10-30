@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Main Menu"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_more">
+        <menu>
+            <item
+                android:id="@+id/options_linear"
+                android:title="@string/list"
+                android:icon="@drawable/ic_list"/>
+            <item
+                android:id="@+id/options_grid"
+                android:title="@string/grid"
+                android:icon="@drawable/ic_grid"/>
+
+            <item
+                android:id="@+id/options_restore_archive"
+                android:title="Archive Restore"
+                android:icon="@drawable/ic_archive"/>
+        </menu>
+    </item>
+</menu>

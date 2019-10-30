@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name" translatable="false">IsTodayAGoodDayTo</string>
+    <string name="sunHeader_tv" translatable="false"></string>
+
+    <string name="about">Is "Today a Good Day to?" (ITAGD for short) is an app that takes information
+                        on the present weather and tells you if the
+                        weather is good for performing certain activities that you input yourself. Press the Tent icon at the bottom to create your activities!
+                        </string>
+
+    <string name="tv_sunrise_card">Sunrise</string>
+    <string name="tv_sunset_card">Sunset</string>
+
+
+    <string name="option_about">About</string>
+
+    <!--Weather Strings-->
+    <string name="drizzle">Drizzle</string>
+    <string name="snow">Snow</string>
+    <string name="thunderstorm">Thunderstorm</string>
+    <string name="clear">Clear</string>
+    <string name="rain">Rain</string>
+    <string name="clouds">Clouds</string>
+
+    <string name="last_updated">Last Updated: </string>
+
+    <string name="btnAdd">Add Activity</string>
+
+    <string name ="btn_what_to_do">What Should I Do?</string>
+
+    <!--Activities options menu-->
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+
+    <!--AddActivity layout -->
+    <string name="btnSave">Save</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="choose_time_tv">Click to choose Time</string>
+    <string name="time">Time</string>
+    <string name="activity">Activity</string>
+    <string name="weather">Weather</string>
+
+    <string name="delete_activity">Delete Activity</string>
+    <string name="delete_message">Would you like to permanently delete this activity?</string>
+    <string name="activity_deleted">Activity Deleted!</string>
+    <string name="archive">Archive</string>
+    <string name="snackbar_activity_restored">Archive Restored. Press OK to return.</string>
+
+    <string name ="open_weathernetwork">Open WeatherNetwork</string>
+    <string name ="about_weather">About the Weather</string>
+
+</resources>
+
